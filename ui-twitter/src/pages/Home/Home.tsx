@@ -1,6 +1,6 @@
 
 import React, { FormEvent, KeyboardEvent, useState } from 'react'
-import { Header, Separator, Tweet } from '../../components'
+import { Header, Tweet } from '../../components'
 import './home.scss'
 
 
@@ -50,7 +50,6 @@ const Home = () => {
 
         <button type='submit'>Tweet</button>
       </form>
-      <Separator />
       {tweets.map((tweet, index) => (
         <Tweet content={tweet} key={index}/>
       ))}

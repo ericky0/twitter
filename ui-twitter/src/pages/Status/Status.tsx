@@ -1,6 +1,6 @@
 import { PaperPlaneRight } from 'phosphor-react'
 import React, { FormEvent, KeyboardEvent, KeyboardEventHandler, useState } from 'react'
-import { Header, Separator, Tweet } from '../../components'
+import { Header, Tweet } from '../../components'
 import './status.scss'
 
 const Status = () => {
@@ -32,7 +32,6 @@ const Status = () => {
       <Header title='Tweet' />
       
       <Tweet content='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, alias voluptates dolore cupiditate debitis cum consequuntur sequi qui at iste autem praesentium. Animi enim eius aut praesentium cupiditate non deleniti?'/>
-      <Separator />
 
       <form onSubmit={createNewAnswer}>
         <label htmlFor="tweet">

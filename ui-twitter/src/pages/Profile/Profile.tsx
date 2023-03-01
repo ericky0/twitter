@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Separator, Tweet } from '../../components'
+import { Header, Tweet } from '../../components'
 import './profile.scss'
 import { images } from '../../constants'
 import { Balloon, Calendar, LinkSimple, MapPin } from 'phosphor-react'
@@ -13,7 +13,7 @@ const Profile = () => {
           <img src={images.banner} alt="banner" />
         </div>
         <div className="profile">
-          <img src={images.profile} alt="" />
+          <img src={images.profile} alt="" /> 
           <button>Edit profile</button>
         </div>
       </div>
