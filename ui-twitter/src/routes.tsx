@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, Navigate, useNavigate } from 'react-router-dom'
-import { Home, Status } from './pages'
+import { Home, Profile, Status } from './pages'
 import Default from './layouts/Default'
 
 
@@ -22,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: '/tweet',
         element: <Status />,
+      },
+      {
+        path: '/profile',
+        element: <Profile />
       }
     ]
   }

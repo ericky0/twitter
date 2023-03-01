@@ -9,7 +9,9 @@ import { Pencil } from 'phosphor-react'
 const Sidebar = () => {
   const [currentNavItem, setCurrentNavItem] = useState('')
   let path = useLocation().pathname.split('/')[1]
-  path = path[0].toUpperCase() + path.substring(1)
+  if(path) {
+    path = path[0].toUpperCase() + path.substring(1)
+  }
 
   useEffect(() => {
     setCurrentNavItem(path)

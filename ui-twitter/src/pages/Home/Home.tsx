@@ -41,7 +41,7 @@ const Home = () => {
 
   return (
     <div id='home'>
-      <Header title='Home'/>
+      <Header title='Home' home={true}/>
       <form onSubmit={createNewTweet}>
         <label htmlFor="tweet">
           <img src="https://github.com/ericky0.png" alt="Erick Hogarth" />

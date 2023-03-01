@@ -4,13 +4,14 @@ import './header.scss'
 
 interface HeaderProps {
   title: string,
+  home?: boolean
 }
 
 const Header = (props: HeaderProps) => {
   return (
     <div className='timeline-header'>
-    {props.title}
-    <Sparkle />
+    { props.title }
+    { props.home ? <Sparkle /> : null}
   </div>
   )
 }
