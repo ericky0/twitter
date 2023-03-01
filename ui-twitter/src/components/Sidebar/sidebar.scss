@@ -1,0 +1,90 @@
+#sidebar {
+  // background: blue;
+  .sidebar-fixed {
+    padding: 1.5rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    width: 300px;
+    // background-color: green;
+
+
+  }
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    a {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      font-size: 1.25rem;
+      font-weight: 400;
+      text-decoration: none;
+      transition: 0.1s all ease-in;
+
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+
+      &.active {
+        color: var(--twitter-blue);
+        font-weight: 700;
+      }
+    }
+  }
+
+  button {
+    background: var(--twitter-blue);
+    border-radius: 9999px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: 0;
+    transition: 0.1s all ease-in-out;
+
+    svg {
+      display: none;
+    }
+
+    &:hover {
+      filter: brightness(0.95);
+    }
+  }
+
+  //#sidebar
+  @media (max-width: 780px) {
+    .sidebar-fixed {
+      width: 80px;
+      align-items: center;
+      padding: 1.5rem 0.75rem;
+
+    }
+    nav > a > span{
+      display: none;
+    }
+
+    button {
+
+      span {
+        display: none;
+      }
+      svg {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}
