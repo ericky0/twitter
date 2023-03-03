@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, Navigate, useNavigate } from 'react-router-dom'
-import { Home, Profile, Status } from './pages'
+import { Explore, Home, Notifications, Profile, Status } from './pages'
 import Default from './layouts/Default'
 
 
@@ -26,6 +26,14 @@ export const router = createBrowserRouter([
       {
         path: '/profile',
         element: <Profile />
+      },
+      {
+        path: '/explore',
+        element: <Explore />
+      },
+      {
+        path: '/notifications',
+        element: <Notifications />
       }
     ]
   }
