@@ -3,7 +3,7 @@
 <br/>
 
 <p align="center">
-    AskTube - <span><b>Taking the video</b> viewing <b>experiece</b> to a new <b>level</b> with our YouTube clone.</span>
+    <b>AskTube</b> - <span>Bringing the <b>power of social media</b> to your <b>fingertips.</b></span>
     <br />
     <br />
     <a href="https://github.com/ericky0/twitter-clone/"><strong>Explore os arquivos »</strong></a>
