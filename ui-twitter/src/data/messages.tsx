@@ -77,20 +77,5 @@ export const messages = [
     user: 'kon4n',
     date: 'Dec 16, 2022',
     lastMessage: 'tipo assim... n achei nenhum br testando esse pad'
-  },
-  {
-    img: images.iza,
-    name: 'FURIA kon4n',
-    user: 'kon4n',
-    date: 'Dec 16, 2022',
-    lastMessage: 'tipo assim... n achei nenhum br testando esse pad'
-  },
-  {
-    img: images.konan,
-    name: 'FURIA kon4n',
-    user: 'kon4n',
-    date: 'Dec 16, 2022',
-    lastMessage: 'tipo assim... n achei nenhum br testando esse pad'
   }
-
 ]
