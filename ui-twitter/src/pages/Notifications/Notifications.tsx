@@ -1,11 +1,11 @@
 import React from 'react'
 import './notifications.scss'
-import { Header } from '../../components'
+import { Header, ItemsNav } from '../../components'
 import { notifications } from '../../data/notifications'
 import { ArrowsClockwise, Heart } from 'phosphor-react'
 const Notifications = () => {
 
-  const types = [
+  const notificationsMenu = [
     'All',
     'Verified',
     'Mentions'
@@ -13,12 +13,8 @@ const Notifications = () => {
 
   return (
     <div id='notifications'>
-      <Header title='Notifications' />
-      <ul className="types">
-        {types.map((type) => (
-          <li>{type}</li>
-        ))}
-      </ul>
+      <Header title='Notifications' type='notifications'/>
+      <ItemsNav types={notificationsMenu} />
 
       {notifications.map((notification) => (
         <div className="notification">

@@ -1,0 +1,22 @@
+ul.itemsNav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--separator-color);
+
+  li {
+    text-align: center;
+    white-space: nowrap;
+    padding: 1rem 1rem;
+    transition: 0.1s all ease-in-out;
+    color: var(--secondary-text);
+    font-weight: 500;
+    cursor: pointer;
+      &:hover {
+        background-color: #1e1e1f;
+      }
+  }
+  border-bottom: 1px solid var(--separator-color);
+}

@@ -2,6 +2,7 @@ import { DotsThree, Gear, MagnifyingGlass } from 'phosphor-react'
 import React from 'react'
 import './explore.scss'
 import { trendings } from '../../data/trendings'
+import { ItemsNav } from '../../components'
 
 const Explore = () => {
   const categories = [
@@ -21,11 +22,7 @@ const Explore = () => {
         </label>
         <Gear />
       </div>
-      <ul className="categories">
-        {categories.map((category) => (
-          <li key={category}>{category}</li>
-        ))}
-      </ul>
+      <ItemsNav types={categories}/>
       <ul className="trendings">
         {trendings.map((trending) => (
           <li>

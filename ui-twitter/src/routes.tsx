@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, Navigate, useNavigate } from 'react-router-dom'
-import { Explore, Home, Notifications, Profile, Status } from './pages'
+import { Explore, Home, Notifications, Profile, Status, Messages } from './pages'
 import Default from './layouts/Default'
 
 
@@ -34,6 +34,10 @@ export const router = createBrowserRouter([
       {
         path: '/notifications',
         element: <Notifications />
+      },
+      {
+        path: '/messages',
+        element: <Messages />
       }
     ]
   }

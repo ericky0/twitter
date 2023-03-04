@@ -1,10 +1,25 @@
 import React from 'react'
-import { Header, Tweet } from '../../components'
+import { Header, ItemsNav, Tweet } from '../../components'
 import './profile.scss'
 import { images } from '../../constants'
 import { Balloon, Calendar, LinkSimple, MapPin } from 'phosphor-react'
 
 const Profile = () => {
+  const activity = [
+    'Tweets',
+    'Tweets & replies',
+    'Media',
+    'Likes',
+  ]
+  const contentTweet = [
+    'tweet 1',
+    'tweet 2',
+    'tweet 3',
+    'tweet 4',
+    'tweet 5',
+    'tweet 6',
+    'tweet 7',
+  ]
   return (
     <div id='profile'>
       <Header title='erick'/>
@@ -37,17 +52,10 @@ const Profile = () => {
           <p><strong>79</strong> Followers </p>
         </div>
       </div>
-      <ul className='activity'>
-          <li>Tweets</li>
-          <li>Tweets & replies</li>
-          <li>Media</li>
-          <li>Likes</li>
-      </ul>
-      <Tweet content={'tweet 1'} />
-      <Tweet content={'tweet 2'} />
-      <Tweet content={'tweet 3'} />
-      <Tweet content={'tweet 4'} />
-      <Tweet content={'tweet 5'} />
+      <ItemsNav types={activity} className='profile-items'/>
+      {contentTweet.map(item => (
+        <Tweet content={item} className='static-tweets'/>
+      ))}
     </div>
   )
 }

@@ -1,0 +1,44 @@
+#Messages {
+  .single-message {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+    
+    &:hover {
+      background-color: #313136;
+      opacity: 0.9;
+    }
+    .img-wrapper {
+      margin-right: 1rem;
+      img {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+      }
+    }
+    .message {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0.1rem;
+      .info-message {
+        display: flex;
+        flex-direction: row;
+        strong {
+          margin-right: 0.5rem;
+        }
+        p {
+          margin: 0rem 0.1rem;
+          color: var(--secondary-text);
+        }
+      }
+      .content-message {
+        margin-top: 0.5rem;
+        p {
+          color: var(--secondary-text);
+        }
+      }
+    }
+  }
+}

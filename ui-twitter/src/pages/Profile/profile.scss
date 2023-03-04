@@ -1,11 +1,9 @@
 #profile {
   display: flex;
   flex-direction: column;
-  margin: 0rem 2rem;
   .top {
     display: flex;
     flex-direction: column;
-    margin: 0rem -2rem;
     .img-wrapper {
       position: relative;
       width: 100%;
@@ -50,7 +48,7 @@
   .info {
     display: flex;
     flex-direction: column;
-
+    padding: 0rem 2rem;
     .title {
       display: flex;
       flex-direction: column;
@@ -115,32 +113,15 @@
       }
   } // info
 
-  ul.activity {
-    margin: 0 -2rem;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr 1fr;
-    list-style: none;
-    border-bottom: 1px solid var(--separator-color);
-      li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        white-space: nowrap;
-        padding: 1.1rem 2rem;
-        transition: 0.1s all ease-in-out;
-        color: var(--secondary-text);
-        font-weight: 500;
-        cursor: pointer;
+  .profile-items {
+    li {
+      padding: 1.2rem 1rem;
+    }
+  }
 
-        &:hover {
-          background-color: #1e1e1f;
-        }
-      }
-
-      @media (max-width: 600px) {
-        li {
-          padding: 1.1rem 0rem;
-        }
-      }
-  } // activity
+  .static-tweets {
+    a {
+      margin: 0rem 0.5rem;
+    }
+  }
 } // #profile

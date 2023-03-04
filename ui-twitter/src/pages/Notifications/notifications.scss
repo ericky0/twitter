@@ -1,25 +1,4 @@
 #notifications {
-  ul.types {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    li {
-      flex-basis: 33.3%;
-      text-align: center;
-      white-space: nowrap;
-      padding: 1.1rem 2rem;
-      transition: 0.1s all ease-in-out;
-      color: var(--secondary-text);
-      font-weight: 500;
-      cursor: pointer;
-        &:hover {
-          background-color: #1e1e1f;
-        }
-    }
-    border-bottom: 1px solid var(--separator-color);
-  }
   div.notification {
     display: flex;
     flex-direction: row;

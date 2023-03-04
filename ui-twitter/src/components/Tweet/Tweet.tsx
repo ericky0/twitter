@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 import React from 'react'
 import './tweet.scss';
 
-interface TweetProps {
+interface TweetProps extends React.HTMLAttributes<HTMLDivElement> {
   content: string
 }
 
 const Tweet = (props: TweetProps) => {
   return (
-    <div id='tweet'>
+    <div id='tweet' className={props.className}>
       <Link to='/tweet'>
         <img src="https://github.com/ericky0.png" alt="erick hogarth" />
         <div className='content'>
