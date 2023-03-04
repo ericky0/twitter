@@ -1,11 +1,61 @@
-# twitter-clone
-twitter clone (in progress)
+# AskTwitter - Twitter Clone
+> Status: Finished. maybe more features in the future =)
+<br/>
+
+<p align="center">
+    AskTube - <span><b>Taking the video</b> viewing <b>experiece</b> to a new <b>level</b> with our YouTube clone.</span>
+    <br />
+    <br />
+    <a href="https://github.com/ericky0/twitter-clone/"><strong>Explore os arquivos »</strong></a>
+  </p>
+</p>
+
+<!-- ABOUT THE PROJECT -->
+## About the project 🎨
+
+- AskTwitter is a project developed using React. With its simple and intuitive design, AskTwitter offers a familiar user experience for those who are accustomed to using Twitter.
 
 ### Profile
-![image](https://user-images.githubusercontent.com/53923000/222127747-a03694cf-4443-4eab-ac9a-b588b2cc5cff.png)
+![profile](https://user-images.githubusercontent.com/53923000/222903680-435e109f-ebcd-4e08-8da0-43d284a9e368.png)
+
+### Messages
+![messages](https://user-images.githubusercontent.com/53923000/222903696-1ec336cc-0ac4-4050-a111-ffaa9dcb53a7.gif)
 
 ### Home
-![image](https://user-images.githubusercontent.com/53923000/222127782-1f2881ee-d493-40b8-b915-a5ee9aa149f0.png)
+![home](https://user-images.githubusercontent.com/53923000/222903691-deefb357-6495-42f5-b894-e093bd030e2f.gif)
 
-### Tweet Page
-![image](https://user-images.githubusercontent.com/53923000/222127841-e5199537-6fd9-465b-a3a6-46b283f9b174.png)
+### Notifications
+![notifications](https://user-images.githubusercontent.com/53923000/222903704-dabe2345-1532-4677-9805-e1afd915eb1b.gif)
+
+### Explore
+![explore](https://user-images.githubusercontent.com/53923000/222903709-0cc3cba5-3828-4ef4-b54e-c197f8e73eec.png)
+
+
+## 🧪 Some technologies used in this project:
+
+* [Typescript](https://www.typescriptlang.org/)
+* [React](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/)
+* [Sass](https://sass-lang.com)
+* [React-Router](https://reactrouter.com/en/main)
+
+#### Prerequisites
+
+``` Git, Yarn or NPM ```
+
+#### Instalation
+
+```
+# Clone this repository
+$ git clone https://github.com/ericky0/twitter-clone
+
+# Install the dependencies for each folder
+$ yarn | npm
+
+```
+
+```
+# Then start the project
+$ client folder: npm run dev
+```
+
+# Finally, the application will be available at `http://localhost:5173`
