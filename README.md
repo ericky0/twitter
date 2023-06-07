@@ -13,7 +13,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project 🎨
 
-- AskTwitter is a project developed using React. With its simple and intuitive design, AskTwitter offers a familiar user experience for those who are accustomed to using Twitter.
+- AskTwitter is a project developed using React. With his simple and intuitive design, AskTwitter offers a familiar user experience for those who are accustomed to using Twitter.
 
 ### Profile
 ![profile](https://user-images.githubusercontent.com/53923000/222903680-435e109f-ebcd-4e08-8da0-43d284a9e368.png)
